@@ -4688,3 +4688,99 @@ input, select, textarea {
 
 	}
 
+	/* Containers */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container.\31 25\25 {
+		width: 100%;
+		max-width: 56.25em;
+		min-width: 45em;
+	}
+
+	.container.\37 5\25 {
+		width: 33.75em;
+	}
+
+	.container.\35 0\25 {
+		width: 22.5em;
+	}
+
+	.container.\32 5\25 {
+		width: 11.25em;
+	}
+
+	.container {
+		width: 45em;
+	}
+
+	#date_strong {
+		color: #45A29E;
+		font-weight: 700;
+	}
+
+	#date_strong_1 {
+		color: #45A29E;
+		font-weight: 700;
+	}
+
+	#date_strong_2 {
+		color: #45A29E;
+		font-weight: 700;
+	}
+
+	#date_strong_3 {
+		color: 	#45A29E;
+		font-weight: 700;
+	}
+
+	/* Style the navbar , following code worked, but doesn't look good yet*/ 
+	/* .fixed-nav-bar{ position: fixed; top: 400px; left: 0; z-index: 9999; width: 100%; height: 50px; }
+  /* Page content */
+
+  .top {
+	--offset: 50px; 
+  
+	position: sticky;
+	bottom: 20px;      
+	margin-right: 10px; 
+	place-self: end;
+	margin-top: calc(100vh + var(--offset));
+  
+	/* visual styling */
+	text-decoration: none;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #fff;
+	background: #000;
+	border-radius: 100px;
+	white-space: nowrap;
+  }
+ 
+  .top {
+	--offset: 50px; 
+  
+	position: sticky;
+	bottom: 20px;      
+	margin-right: 10px; 
+	place-self: end;
+	margin-top: calc(100vh + var(--offset));
+  
+	/* visual styling */
+	width: 10px;
+	aspect-ratio: 1;
+	background: #000;
+	border-radius: 10px;
+  }
+  
+  /* .top:before {
+	content: "";
+	position: absolute;
+	inset: 30%;
+	transform: translateY(10%) rotate(-45deg);
+	border-top: 5px solid #fff;
+	border-right: 5px solid #fff;
+  } */
