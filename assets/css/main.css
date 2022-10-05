@@ -4865,9 +4865,7 @@ input, select, textarea {
 		font-weight: 700;
 	}
 
-	/* Style the navbar , following code worked, but doesn't look good yet*/ 
-	/* .fixed-nav-bar{ position: fixed; top: 400px; left: 0; z-index: 9999; width: 100%; height: 50px; }
-  /* Page content */
+  /* top button */
 
  .top {
 	--offset: 50px; 
@@ -4922,10 +4920,7 @@ input, select, textarea {
 	resize: both;
 	width: 100%;
     height: 100px;
-	/* padding: 5px 9%; */
 	background-color: rgba(255, 255, 255, 0.7);
-	/* background-size: 100px 100px;
-    background-position: center; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -4936,6 +4931,8 @@ input, select, textarea {
   nav.sticky ul{
 	width: auto;
   }
+
+
 
 
 
