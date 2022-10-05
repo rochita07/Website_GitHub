@@ -4717,6 +4717,134 @@ input, select, textarea {
 		width: 45em;
 	}
 
+	@media screen and (max-width: 1680px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 56.25em;
+			min-width: 45em;
+		}
+
+		.container.\37 5\25 {
+			width: 33.75em;
+		}
+
+		.container.\35 0\25 {
+			width: 22.5em;
+		}
+
+		.container.\32 5\25 {
+			width: 11.25em;
+		}
+
+		.container {
+			width: 45em;
+		}
+
+	}
+	@media screen and (max-width: 1280px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 52.5em;
+			min-width: 42em;
+		}
+
+		.container.\37 5\25 {
+			width: 31.5em;
+		}
+
+		.container.\35 0\25 {
+			width: 21em;
+		}
+
+		.container.\32 5\25 {
+			width: 10.5em;
+		}
+
+		.container {
+			width: 42em;
+		}
+
+	}
+
+	@media screen and (max-width: 1024px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 106.25%;
+			min-width: 85%;
+		}
+
+		.container.\37 5\25 {
+			width: 63.75%;
+		}
+
+		.container.\35 0\25 {
+			width: 42.5%;
+		}
+
+		.container.\32 5\25 {
+			width: 21.25%;
+		}
+
+		.container {
+			width: 85% !important;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90% !important;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90% !important;
+		}
+
+	}
 	#date_strong {
 		color: #45A29E;
 		font-weight: 700;
