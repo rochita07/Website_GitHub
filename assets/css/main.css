@@ -4868,39 +4868,38 @@ input, select, textarea {
   /* top button */
 
  .top {
-	--offset: 50px; 
+	/* --offset: 50px;  */
   
 	position: sticky;
-	bottom: 20px;      
-	margin-right: 10px; 
+	/* bottom: 20px;      
+	margin-right: 10px;  */
 	place-self: end;
-	margin-top: calc(100vh + var(--offset));
+
   
 	/* visual styling */
 	text-decoration: none;
-	padding: 10px;
+
 	font-family: sans-serif;
 	color: #fff;
-	background: #000;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	white-space: nowrap;
 	text-align: center;
   }  
  
   .top {
-	--offset: 50px; 
+	/* --offset: 50px;  */
   
 	position: sticky;
-	bottom: 20px;      
-	margin-right: 10px; 
+	/* bottom: 20px;      
+	margin-right: 10px;  */
 	place-self: end;
-	margin-top: calc(100vh + var(--offset));
+
   
 	/* visual styling */
-	width: 10px;
-	aspect-ratio: 1;
-	background: #000;
-	border-radius: 10px;
+	width: auto;
+	/* aspect-ratio: 1; */
+	background: rgb(71, 70, 70);
+	/* border-radius: 10px; */
 	text-align: center;
   }
   
