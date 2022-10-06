@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>About Me</title>
+		<title>Project</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -40,18 +40,25 @@
 
 						<!-- Post -->
 							<section class="post">
+								<!-- <div class="container"> -->
                                 <header class="major">
+									<!-- <header> -->
 									<h2>Time series and regression analysis of Yahoo share price of Japan and USA </h1>
-                                    <p> <b>Keywords:</b> ARIMA, GARCH, VAR, Causality, 2SLS, R </p>
-                                    <ul class="actions special">
+                                    <!-- <br> -->
+									<h4> <b>Keywords:</b> ARIMA, GARCH, VAR, Causality, 2SLS, R </h4>
+                                    <br>
+									<ul class="actions special">
                                     <li><a href="projects/TimeSeries_Regression_YahooShare_doc.pdf" target="_blank" class="button">Full Report</a></li>
                                         <li><a href="https://github.com/rochita07/rochitadas.github.io/tree/master/projects/Yahoo_share_price" target="_blank" class="button">Code</a></li>
 									</ul>
                                 </header>
-								<div class="image main"><img src="images/pic_yahoo_share_price_project.jpg" alt="" /></div>
+
+								<div class="image left"><img src="images/pic_yahoo_share_price_project.jpg" alt="" /></div>
 								<p> Objective of this study was to predict highly volatile share price in the competitive economy. For that, Yahoo share price of both Japan and USA were considered. Analysis was done following two approaches: </p>
 								<p> Firstly, individual time series analysis was done following time domain approach on both the share prices. Data were detrended and deseasonalised whenever required (decided based on Mann-Kendall Test and Kruskal-Wallis test by ranks respectively) to get stationary data. Plotting ACF, PACF plots and considering minimum AIC, appropriate ARIMA model was determined (adequacy of the model was checked by Ljung-Box test). After making the data as mean stationary proper GARCH model was fitted if volatility was present which was decided based on Lagrange multiplier test. Confidence interval was obtained by considering distribution of mean residual (Anscombe test was used) and by considering both predicted mean and standard deviation. </p>
 								<p>	Secondly, regression analysis was done considering some relevant exogenous variables (NASDAQ, NIKKEI, Yen-Dollar exchange ratio) and fitting VAR model. Then performing Granger causality test, it was found that instantaneous causality was present among both the share prices. Hence, Simultaneous Equation Model (SEM) was opted to capture mutual interaction between two share prices. Considering order and rank conditions, Two Stage Least Squares (2SLS) was applied to predict future share. Following both the approaches, predictions for both the share prices for 10 consecutive days were made which were pretty close to the original values.</p>							
+
+							<!-- </div> -->
 							</section>
 
 					</div>
@@ -62,7 +69,7 @@
 					<section class="split contact">
 						<section>
 							<h3>Email</h3>
-							<p><a href="#">rochita.das.stat@gmail.com</a></p>
+							<p>rochita.das.stat@gmail.com</p>
 						</section>
 						<section>
 							<h3>Social</h3>
